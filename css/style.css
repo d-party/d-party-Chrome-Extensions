@@ -1,5 +1,5 @@
 ﻿
-.itemModule a:first-child {
+.swiper-slide-active .itemModule a:first-child {
     height: 100%;
     width: 80% !important;
 }
@@ -15,3 +15,6 @@ section.clearfix {
     width: 100%!important;
 }
 
+.watched_episode{
+    background-color: #f8f8f8;
+}
