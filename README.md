@@ -9,7 +9,7 @@ d-partyのChrome Extensionを開発するリポジトリ
 本拡張機能のの動作検証には、バックエンドの動作が必須となります。
 [d-Party-Backend](https://github.com/d-Party/d-Party-Backend)をcloneして起動させてください。
 
-
+また、デフォルトの設定ではlocalhostではなく、wss://d-party.netに接続しに行く設定を行っています。
 
 ### 設定
 
