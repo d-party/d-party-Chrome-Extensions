@@ -1,0 +1,17 @@
+﻿
+.itemModule a:first-child {
+    height: 100%;
+    width: 80% !important;
+}
+
+.play-btn ,.popper-btn{
+    height: 100%;
+    width: 10% !important;
+    align-self: flex-end ;
+}
+
+section.clearfix {
+    display: flex;
+    width: 100%!important;
+}
+
