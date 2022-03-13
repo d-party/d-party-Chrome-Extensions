@@ -9,10 +9,10 @@ function main(e) {
   chrome.storage.sync.get(["auto_another_tab"], function (result) {
     if (typeof result.auto_another_tab === "undefined") {
       chrome.storage.sync.set({ auto_another_tab: true });
-      document.getElementById("auto_another_tab_checkbox").checked = true;
+      //document.getElementById("auto_another_tab_checkbox").checked = true;
     } else {
-      document.getElementById("auto_another_tab_checkbox").checked =
-        result.auto_another_tab;
+      // document.getElementById("auto_another_tab_checkbox").checked =
+      //   result.auto_another_tab;
     }
   });
   $("#auto_another_tab_checkbox").change(function () {
@@ -25,12 +25,12 @@ function main(e) {
   chrome.storage.sync.get(["auto_user_name_decision"], function (result) {
     if (typeof result.auto_user_name_decision === "undefined") {
       chrome.storage.sync.set({ auto_user_name_decision: false });
-      document.getElementById(
-        "auto_user_name_decision_checkbox"
-      ).checked = false;
+      // document.getElementById(
+      //   "auto_user_name_decision_checkbox"
+      // ).checked = false;
     } else {
-      document.getElementById("auto_user_name_decision_checkbox").checked =
-        result.auto_user_name_decision;
+      // document.getElementById("auto_user_name_decision_checkbox").checked =
+      //   result.auto_user_name_decision;
     }
   });
   $("#auto_user_name_decision_checkbox").change(function () {
