@@ -30,3 +30,7 @@ d-partyのChrome Extensionを開発するリポジトリ
 - [Flickity · Touch, responsive, flickable carousels](https://flickity.metafizzy.co/)
   - <https://unpkg.com/flickity@2.3.0/dist/flickity.pkgd.min.js>
   - <https://unpkg.com/flickity@2.3.0/dist/flickity.css>
+
+## ストアページ
+
+[d-party |Chrome ウェブストア](https://chrome.google.com/webstore/detail/d-party/ibmlcfpijglpfbfgaleaeooebgdgcbpc?hl=ja)

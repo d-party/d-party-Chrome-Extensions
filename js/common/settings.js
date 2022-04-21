@@ -8,10 +8,10 @@
  * に変更すればよいはず
  */
 
-let D_PARTY_BACKEND_HOST = "d-party.net/";
+let D_PARTY_BACKEND_HOST = "localhost/";
 
-let D_PARTY_BACKEND_PROTOCOL = "https://";
-let D_PARTY_WEBSOCKET_PROTOCOL = "wss://";
+let D_PARTY_BACKEND_PROTOCOL = "http://";
+let D_PARTY_WEBSOCKET_PROTOCOL = "ws://";
 
 /**
  * localhostにて検証したい場合
