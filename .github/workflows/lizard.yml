@@ -19,4 +19,4 @@ jobs:
         uses: Uno-Takashi/Lizard-Runner@v3
         with:
           language: "javascript"
-          exclude: "js/library/*"
+          exclude: "library/*"
