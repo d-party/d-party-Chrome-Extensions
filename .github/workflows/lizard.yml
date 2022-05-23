@@ -1,0 +1,22 @@
+name: Lizard Runner
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+  lizard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v3
+      - name: Lizard Runner
+        uses: Uno-Takashi/Lizard-Runner@v3
+        with:
+          language: "javascript"
+          exclude: "jquery-*.js"
