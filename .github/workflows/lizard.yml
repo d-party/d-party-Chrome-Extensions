@@ -18,6 +18,5 @@ jobs:
       - name: Lizard Runner
         uses: Uno-Takashi/Lizard-Runner@v3
         with:
-          path: "./Django"
           language: "javascript"
           exclude: "js/library/*"
